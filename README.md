@@ -115,16 +115,23 @@ O deploy foi feito de forma automatizada com GitHub + Railway, utilizando variá
 
 ```bash
 git clone https://github.com/higorv10/dio-api.git
-cd dio-api
+cd dio-api\app
 ```
 
-2. Execute com o Gradle:
+2. Após clonar o repositório, localize o arquivo `App.java` no seu diretório local:
+   ```css
+   [CAMINHO_DO_REPOSITÓRIO]src\main\java\dio\api
+   ```
+
+3. Execute com o Gradle:
 
 ```bash
 ./gradlew bootRun
 ```
 
-3. Acesse o Swagger:
+4. Caso esteja utilizando o VSCode, basta abrir o projeto, localizar o arquivo App.java e clicar com o botão direito sobre ele para selecionar a opção Run. O terminal irá exibir as instruções para interagir com a aplicação.
+
+5. Acesse o Swagger:
 
 ```bash
 http://localhost:8080/swagger-ui.html
