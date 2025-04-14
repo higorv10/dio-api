@@ -138,7 +138,7 @@ http://localhost:8080/swagger-ui.html
 ```
 
 ## 📄 Licença
-Projeto desenvolvido para fins educacionais na DIO. Sem licença comercial.
+Desenvolvido durante o Bootcamp Bradesco Java Cloud Native na DIO para fins educacionais.
 
 
 
