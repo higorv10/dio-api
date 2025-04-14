@@ -113,10 +113,10 @@ O deploy foi feito de forma automatizada com GitHub + Railway, utilizando variá
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/higorv10/dio-api.git
-cd dio-api\app
-```
+   ```bash
+   git clone https://github.com/higorv10/dio-api.git
+   cd dio-api\app
+   ```
 
 2. Após clonar o repositório, localize o arquivo `App.java` no seu diretório local:
    ```css
@@ -125,17 +125,17 @@ cd dio-api\app
 
 3. Execute com o Gradle:
 
-```bash
-./gradlew bootRun
-```
+   ```bash
+   ./gradlew bootRun
+   ```
 
 4. Caso esteja utilizando o VSCode, basta abrir o projeto, localizar o arquivo App.java e clicar com o botão direito sobre ele para selecionar a opção Run. O terminal irá exibir as instruções para interagir com a aplicação.
 
 5. Acesse o Swagger:
 
-```bash
-http://localhost:8080/swagger-ui.html
-```
+   ```bash
+   http://localhost:8080/swagger-ui.html
+   ```
 
 ## 📄 Licença
 Desenvolvido durante o Bootcamp Bradesco Java Cloud Native na DIO para fins educacionais.
